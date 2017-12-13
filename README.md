@@ -65,10 +65,20 @@ Summary: MEN+HANDLEBAR is selected based on personal evaluation.
 ### 4. Plans
  Here is a list of my planned item to be done; if checked, it is done, else it is not.
  
-   ##### Backend:
  
- - [x] Install dependencies
-- [x]
+ - [x] README.md
+ - [x] Install Node.js and Node Package Manager
+ - [x] Install Mongdb 
+ - [x] Install dependencies: express, body-parser, etc.
+ - [x] Endpoint(APIs design)
+ - [x] Database collections and shema
+ - [x] Server setup
+ - [x] Responsive design for frontend
+ - [x] Add login feature for admin to login
+ - [x] Test repsonsive design using chrome deverlop tools
+
+ 
+### 5. Installation
  
 
 
