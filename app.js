@@ -1,3 +1,5 @@
+//reference: https://github.com/20chix/course_Vue.js_Mongo_Express.js
+
 var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
