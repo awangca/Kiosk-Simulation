@@ -114,3 +114,6 @@ To begin, you need to clone the repo first and direct to inside the folder.
 * ADMIN REGISTERATION:
 ![adminregister](https://user-images.githubusercontent.com/22812046/33916646-a9984452-df5e-11e7-9b96-ea537379a4b8.PNG)
 
+* DATABASE DISPLAY:
+![database](https://user-images.githubusercontent.com/22812046/33920379-8022f73e-df72-11e7-8ba7-08e30438529f.PNG)
+
