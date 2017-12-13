@@ -1,0 +1,125 @@
+<h3 class="col-sm-10">Check In here</h3>
+
+<form class=" col-sm-12" method="post" action="/users/checkin">
+  <div class="form-group">
+    <label>Name</label>
+    <input type="text" class="form-control" placeholder="Name" name="name">
+  </div>
+  <div class="form-group">
+    <label>Email</label>
+    <input type="text" class="form-control" placeholder="Email" name="email">
+  </div>
+  <div class="form-group">
+    <label>Telephone</label>
+    <input type="text" class="form-control" placeholder="Telephone" name="telephone">
+  </div>
+  <div class="form-group">
+    <label>Company</label>
+    <input type="text" class="form-control" placeholder="Company" name="company">
+  </div>
+  {{!--
+  <div>
+    <input type="checkbox" id="officialvisit" name="officialvisit" />
+    <label for="officialvisit">Official Visit</label>
+  </div> --}}
+  <div>
+    <label class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="officialvisit" name="officialvisit">
+      <span class="custom-control-indicator"></span>
+      <span class="custom-control-description">Check if it is official visit.</span>
+    </label>
+  </div>
+
+  {{!-- <div>
+    <input type="checkbox" id="escortrequired" name="escortrequired" />
+    <label for="escortrequired  ">Escort Required</label>
+  </div> --}}
+  <div>
+      <label class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input" id="escortrequired" name="escortrequired">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description">Check if you need escort.</span>
+      </label>
+  </div>
+  <div class="form-group">
+    <label>Escort Name</label>
+    <input type="text" class="form-control" id="escortnameCalled" placeholder="Escort Name" name="escortname"  >
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+
+<script>
+
+
+</script>
+<style>
+.header {
+    padding-bottom: 1rem;
+    border-bottom: 0px solid #e5e5e5;
+}
+.footer {
+    padding-top: 0px;
+    color: #777;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: normal;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    border-radius: 0.25rem;
+    transition: all 0.15s ease-in-out;
+    background: #b13811;
+}
+
+.btn:hover {
+    background: #ec5728;
+}
+
+.header {
+    padding-bottom: 1rem;
+    border-bottom: .0px solid #e5e5e5;
+}
+
+.footer {
+    padding-top: 1.5rem;
+    color: #777;
+    border-top: 0px solid #e5e5e5;
+}
+
+.container {
+    width: 400px;
+}
+
+.bg-info {
+    background-color: #d8811f !important;
+    box-shadow: 33px 24px 41px #c8771d;
+    border-radius: 42px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    transition: border-color cubic-bezier(.31,-0.01,.58,1) 0.15s, box-shadow cubic-bezier(.39,.58,.57,1) 0.15s;
+    box-shadow: 1px 6px 6px black;
+}
+</style>
