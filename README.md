@@ -80,6 +80,20 @@ Summary: MEN+HANDLEBAR is selected based on personal evaluation.
  
 ### 5. Installation
  
+To begin, you need to clone the repo first and direct to inside the folder.
+ 
+1. Install Nodejs, Mongodb, NPM:
+
+2. Install denpendecies:
+      npm install
+  
+3. Start mongodb:
+      sudo servce mongod start
+     
+4. run the serve:
+      nodemon app.js
+      
+ 
 
 
 
@@ -89,10 +103,6 @@ Summary: MEN+HANDLEBAR is selected based on personal evaluation.
 
 
 
+### 6. screenshots 
 
-### Stuff used to make this:
 
- * [markdown-it](https://github.com/markdown-it/markdown-it) for Markdown parsing
- * [CodeMirror](http://codemirror.net/) for the awesome syntax-highlighted editor
- * [highlight.js](http://softwaremaniacs.org/soft/highlight/en/) for syntax highlighting in output code blocks
- * [js-deflate](https://github.com/dankogai/js-deflate) for gzipping of data to make it fit in URLs
