@@ -105,4 +105,12 @@ To begin, you need to clone the repo first and direct to inside the folder.
 
 ### 6. screenshots 
 
+* CHECKIN PAGE:
+![checkin](https://user-images.githubusercontent.com/22812046/33916559-4c209d74-df5e-11e7-8590-f6fab9dae812.PNG)
+
+* ADMIN LOGIN:
+![adminlogin](https://user-images.githubusercontent.com/22812046/33916601-7c93d034-df5e-11e7-9ff6-4eb9e13a510b.PNG)
+
+* ADMIN REGISTERATION:
+![adminregister](https://user-images.githubusercontent.com/22812046/33916646-a9984452-df5e-11e7-9b96-ea537379a4b8.PNG)
 
